@@ -234,7 +234,7 @@ const CheckoutCard: FC = () => {
             role="status"
           />
         ) : (
-          <span>Sponsor</span>
+          <span>Buy me a coffee</span>
         )}
       </button>
     </div>
