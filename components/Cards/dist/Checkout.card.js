@@ -167,6 +167,6 @@ var CheckoutCard = function () {
             : "Please switch network to polygon")) : (React.createElement("span", null, "Connect Wallet"))),
         React.createElement("button", { disabled: !currentAccount || ((_b = window === null || window === void 0 ? void 0 : window.ethereum) === null || _b === void 0 ? void 0 : _b.networkVersion) !== "137", onClick: openModal, role: "link", className: "group mt-4 flex w-full items-center justify-center rounded-lg border-2 border-accent bg-transparent px-6 py-3 text-xl font-semibold text-accent transition duration-200 hover:border-accent hover:bg-accent hover:text-black\n        " + (!currentAccount ||
                 (((_c = window === null || window === void 0 ? void 0 : window.ethereum) === null || _c === void 0 ? void 0 : _c.networkVersion) !== "137" &&
-                    "cursor-not-allowed opacity-50")) }, loading ? (React.createElement("div", { style: { borderTopColor: "transparent" }, className: "inline-block h-6 w-6 animate-spin rounded-full border-4 border-solid border-darkerBlue group-hover:border-accent", role: "status" })) : (React.createElement("span", null, "Sponsor")))));
+                    "cursor-not-allowed opacity-50")) }, loading ? (React.createElement("div", { style: { borderTopColor: "transparent" }, className: "inline-block h-6 w-6 animate-spin rounded-full border-4 border-solid border-darkerBlue group-hover:border-accent", role: "status" })) : (React.createElement("span", null, "Buy me a coffee")))));
 };
 exports["default"] = CheckoutCard;
