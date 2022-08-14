@@ -1,4 +1,4 @@
-import "../styles/Globals.css";
+import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { NextSeo } from "next-seo";
 import Script from "next/script";
