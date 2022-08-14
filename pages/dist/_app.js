@@ -11,7 +11,7 @@ var __assign = (this && this.__assign) || function () {
     return __assign.apply(this, arguments);
 };
 exports.__esModule = true;
-require("../styles/globals.css");
+require("../styles/Globals.css");
 var next_seo_1 = require("next-seo");
 function MyApp(_a) {
     var Component = _a.Component, pageProps = _a.pageProps;

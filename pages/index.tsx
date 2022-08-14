@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { Toaster } from "react-hot-toast";
-import { CheckoutCard } from "../components";
+import { CheckoutCard } from "../Components";
 
 const Home = () => {
   return (

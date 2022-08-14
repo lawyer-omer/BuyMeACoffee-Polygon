@@ -4,7 +4,7 @@ var head_1 = require("next/head");
 var image_1 = require("next/image");
 var link_1 = require("next/link");
 var react_hot_toast_1 = require("react-hot-toast");
-var components_1 = require("../components");
+var Components_1 = require("../Components");
 var Home = function () {
     return (React.createElement("div", { className: "relative flex min-h-screen w-screen flex-col-reverse items-center bg-darkBlue p-10 sm:flex-row sm:justify-evenly sm:p-20" },
         React.createElement(head_1["default"], null,
@@ -19,6 +19,6 @@ var Home = function () {
         React.createElement("div", { className: "flex w-screen flex-col items-center sm:h-auto sm:w-auto sm:items-start" },
             React.createElement("div", { className: "relative h-16 w-60" },
                 React.createElement(image_1["default"], { src: "/logo.svg", alt: "logo", layout: "fill", objectFit: "contain" })),
-            React.createElement(components_1.CheckoutCard, null))));
+            React.createElement(Components_1.CheckoutCard, null))));
 };
 exports["default"] = Home;
